@@ -1,7 +1,6 @@
 function AlbumCard({ album }) {
   // Extraemos la foto de mayor tamaño del arreglo de Last.fm
-  const imagenUrl = album.image?.[6]?.['#text'] || 'https://via.placeholder.com/300?text=No+Cover';
-
+const imagenUrl = album.image?.[2]?.['#text'] || album.image?.[album.image.length - 1]?.['#text'] || 'https://via.placeholder.com/300?text=No+Cover';
   return (
     <div className="album-card">
       <img src={imagenUrl} alt={album.name} className="album-img" />

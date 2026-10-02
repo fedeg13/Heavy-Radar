@@ -1,4 +1,4 @@
-# Album Radar - Metal Edition 🤘
+# Heavy Radar - Metal Edition 🤘
 Proyecto para el Trabajo Práctico Final (Opción B) - UTN.
 
 ## Descripción

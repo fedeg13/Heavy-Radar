@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2026 Album Radar - Metal Edition | Creado para el TP Final de React (UTN)</p>
+      <p>© 2026 Heavy Radar - Metal Edition</p>
     </footer>
   );
 }
